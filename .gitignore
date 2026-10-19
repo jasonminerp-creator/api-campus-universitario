@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Configuración local con credenciales
+appsettings.Development.json
+appsettings.Local.json
+

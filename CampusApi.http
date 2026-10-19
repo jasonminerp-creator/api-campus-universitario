@@ -1,0 +1,24 @@
+@CampusApi_HostAddress = http://localhost:5136
+
+GET {{CampusApi_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{CampusApi_HostAddress}}/api/estudiantes
+Accept: application/json
+
+###
+
+GET {{CampusApi_HostAddress}}/api/docentes
+Accept: application/json
+
+###
+
+GET {{CampusApi_HostAddress}}/api/cursos
+Accept: application/json
+
+###
+
+GET {{CampusApi_HostAddress}}/api/asignaciones
+Accept: application/json
